@@ -1,0 +1,245 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+body {
+	background-color: rgb(19, 12, 49);
+}
+.main {
+	display: flex;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+.container {
+	background-image: url(./photos/startpage_post_7ef5c91bfc.gif);
+	width: 1100px;
+	height: 100vh;
+	background-size: cover;
+	box-shadow: 0 0 30px rgb(5, 76, 88);
+}
+.size {
+	width: 1100px;
+}
+.hidden {
+	display: none;
+	visibility: hidden;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+.nav {
+	font-size: 1.5rem;
+	padding: 0 30px;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1100px;
+	height: 50px;
+	background-color: rgba(60, 10, 83, 0.6);
+	color: burlywood;
+	border-bottom: 1px solid rgb(212, 0, 255);
+	box-shadow: 0 3px 5px rgb(171, 0, 187);
+}
+.nav_box2 {
+	margin-right: 250px;
+	margin-bottom: 3px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+.box1 {
+	margin-top: 50px;
+	font-size: 3rem;
+	color: rgb(245, 53, 6);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1,
+h2 {
+	text-shadow: 0 5px 10px rgb(183, 0, 255);
+}
+h3 {
+	color: white;
+	font-size: 1.2rem;
+}
+.register {
+	border-radius: 8px;
+	box-shadow: 0 5px 10px rgb(183, 0, 255);
+	margin-top: 100px;
+	width: 250px;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(171, 88, 182, 0.8);
+}
+.btn_submit {
+	background-color: rgb(255, 153, 0);
+	color: rgb(255, 255, 255);
+	width: 100px;
+	border-radius: 10px;
+	font-size: 1.1rem;
+	outline: none;
+}
+.input {
+	font-size: 1.1rem;
+	outline: none;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+.box2 {
+	font-size: 2rem;
+	position: absolute;
+	top: 200px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: greenyellow;
+}
+.box2 p {
+	margin-top: 180px;
+	color: red;
+}
+.input2 {
+	margin-top: 10px;
+	font-size: 1.1rem;
+	outline: none;
+}
+.start {
+	background-color: greenyellow;
+	border-radius: 10px;
+	font-size: 1.2rem;
+	width: 130px;
+	outline: none;
+	margin-top: 10px;
+}
+/* .balance {
+	margin-top: 50px;
+	display: flex;
+} */
+.pressbox {
+	display: flex;
+}
+.incbalance {
+	position: absolute;
+	top: -190px;
+	right: 20px;
+	text-shadow: none;
+	font-size: 1.5rem;
+	color: burlywood;
+}
+.nav_box2 li {
+	display: flex;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+
+.box3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	background-color: rgba(94, 3, 155, 0.7);
+	width: 1100px;
+	height: 100vh;
+	background-size: cover;
+}
+.box3 h1 {
+	margin-top: 150px;
+	color: rgb(255, 251, 0);
+	font-size: 15rem;
+	text-shadow: 0 0 15px rgb(154, 47, 255);
+}
+.press {
+	margin-top: 20px;
+	font-size: 2rem;
+	background-color: greenyellow;
+	outline: none;
+	border-radius: 8px;
+	border: none;
+	box-shadow: 0 0 15px rgb(255, 255, 255);
+	width: 150px;
+}
+.box3 p {
+	font-size: 2rem;
+	margin-top: 100px;
+	color: red;
+}
+.incbalance2 {
+	position: absolute;
+	top: 30px;
+	color: rgb(255, 255, 0);
+}
+
+.imgwin {
+	position: absolute;
+	top: 0;
+	width: 1100px;
+	height: 100vh;
+}
+.newgame {
+	margin-bottom: 100px;
+	font-size: 1.5rem;
+	border-radius: 8px;
+	outline: none;
+	color: rgb(4, 0, 255);
+	background-color: lawngreen;
+	width: 200px;
+	height: 50px;
+}
+.win h1 {
+	font-size: 5rem;
+	margin-bottom: 30px;
+	text-shadow: 0 5px 10px white;
+	color: rgb(255, 0, 212);
+}
+.box4 {
+	position: absolute;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: end;
+	width: 1100px;
+	height: 100vh;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////// */
+.box5 {
+	height: 100vh;
+	background-color: rgba(94, 3, 155, 0.7);
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top: 0;
+}
+.box5 h1 {
+	margin-top: 70px;
+	font-size: 10rem;
+	color: red;
+	text-shadow: 0 1px 15px rgb(255, 255, 255);
+}
+
+.box5 h2 {
+	margin-top: 40px;
+	font-size: 4rem;
+	color: rgb(81, 255, 0);
+	text-shadow: 0 1px 15px rgb(255, 255, 255);
+}
+.donkey {
+	width: 500px;
+	border-radius: 45%;
+	box-shadow: 0 0 20px white;
+}
+.try {
+	color: blue;
+}

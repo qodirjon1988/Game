@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style (2).css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="nav hidden">
+          <div class="nav_box1">RDM</div>
+          <div class="nav_box2">
+            <strong
+              ><li>
+                Name
+                <p class="name"></p>
+              </li>
+            </strong>
+          </div>
+        </div>
+        <div class="box1">
+          <h2>GAME</h2>
+          <h2>of</h2>
+          <h1>Random Numbers</h1>
+          <div class="register">
+            <h3>Register</h3>
+            <input type="text" class="input username1" placeholder="name" />
+            <input
+              type="number"
+              class="input"
+              placeholder="credit card number"
+            />
+            <input
+              type="number"
+              class="input"
+              id="inp"
+              placeholder="amount $"
+            />
+            <button class="btn_submit">submit</button>
+          </div>
+        </div>
+        <div class="box2 size hidden">
+          <h1>WELLCOME TO THE GAME</h1>
+          <h1 class="incbalance">0</h1>
+          <p>For the start game write amount of money</p>
+          <input type="number" placeholder="amount $" class="input2" />
+          <button class="start">Start game</button>
+        </div>
+
+        <div class="box3 size hidden">
+          <h2 class="incbalance2">0</h2>
+          <h1 class="h1">0</h1>
+          <p>Press Next</p>
+          <button class="press">Next ></button>
+        </div>
+        <div class="win hidden">
+          <img src="./photos/unnamed.gif" class="imgwin" />
+          <div class="box4">
+            <h1>You win 10$</h1>
+            <button class="newgame">New game</button>
+          </div>
+        </div>
+        <div class="box5 size hidden">
+          <h1>YOU LOOSE</h1>
+          <h2>would you like try again ?</h2>
+          <img
+            src="./photos/anigif_sub-buzz-626-1624378673-1.gif"
+            class="donkey"
+          />
+          <button class="press try">try again</button>
+        </div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>
